@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: auto;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    width: 68px;
+    height: 29px;
+    margin: 29px 0 17px 20px;
+}
+
+.header__boton{
+    Width: 141px;
+    Height:45px;
+    margin: 15px 15px 15px 0;
+    background-color: #6FE2FB;
+    border-radius: 3px;
+    border: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.seccion{
+    background-color: white;
+    width: auto;
+    height: 243px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.seccion__contenedor{
+    width: auto;
+    height: 144px;
+    margin: 0 27px;
+}
+
+.seccion__texto{
+    margin: 0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.ingresar{
+    background-color: white;
+    width: auto;
+    height: 349px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ingresar__etiqueta{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.ingresar__input{
+    height: 45px;
+    width: 234px;
+    border-radius: 3px;
+    border: none;
+    background-color: #E8E8E8;
+    margin-top: 6px;
+}
+
+.ingresar__boton{
+    height: 45px;
+    width: 234px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FFED47;
+    margin-top: 15px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+}
